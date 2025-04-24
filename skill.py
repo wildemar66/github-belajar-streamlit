@@ -6,7 +6,7 @@ def tentang_skil():
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        st.subheader("Bahasa Pemrograman")
+        st.subheader("B.Pemrograman")
         st.markdown("""
         - Python
         - JavaScript

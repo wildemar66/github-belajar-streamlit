@@ -12,7 +12,7 @@ def display_contact():
         if submit_button:
             if name and email and message:
                 st.success("Pesan Anda telah terkirim! Saya akan segera menghubungi Anda.")
-                # Di sini Anda bisa menambahkan kode untuk mengirim email atau menyimpan pesan
+                
             else:
                 st.warning("Harap isi semua field!")
                 

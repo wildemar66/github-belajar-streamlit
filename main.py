@@ -53,5 +53,9 @@ elif page == 'Kontak':
     kc.display_contact()
     
 elif page == 'Keterampilan':
-    import skil as sk
+    import skill as sk
     sk.tentang_skil()
+    
+elif page == 'Proyek':
+    import prediksi as pr
+    pr.prediksi()
