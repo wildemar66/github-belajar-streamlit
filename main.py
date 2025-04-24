@@ -43,3 +43,8 @@ with col2:
     
 # Tab navigasi
 tab1, tab2, tab3, tab4 = st.tabs(["Tentang Saya", "Proyek", "Keterampilan", "Kontak"])
+page = tab1, tab2, tab3, tab4
+
+if page == tab1:
+    import tentang_saya as ts
+    ts.display_about_me()
