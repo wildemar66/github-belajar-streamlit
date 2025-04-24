@@ -47,3 +47,11 @@ page = st.sidebar.radio('Pilih halaman:',["Tentang Saya", "Proyek", "Keterampila
 if page == 'Tentang Saya':
     import tentang_saya as ts
     ts.display_about_me()
+    
+elif page == 'Kontak':
+    import kontak as kc
+    kc.display_contact()
+    
+elif page == 'Keterampilan':
+    import skil as sk
+    sk.tentang_skil()
