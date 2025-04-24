@@ -41,10 +41,9 @@ with col2:
     :briefcase: [LinkedIn](www.linkedin.com/in/wildemarminggu)
     """)
     
-# Tab navigasi
-tab1, tab2, tab3, tab4 = st.tabs(["Tentang Saya", "Proyek", "Keterampilan", "Kontak"])
-page = tab1, tab2, tab3, tab4
-
-if page == tab1:
+# navigasi
+st.sidebar.title("Navigasi")
+page = st.sidebar.radio('Pilih halaman:',["Tentang Saya", "Proyek", "Keterampilan", "Kontak"])
+if page == 'Tentang Saya':
     import tentang_saya as ts
     ts.display_about_me()
